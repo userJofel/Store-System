@@ -25,13 +25,13 @@ public class ProdutoService {
         }
     }
 
-    public void buscarPorId(int id) {
+    public Produto buscarProdutoPorId(int id) {
         for (Produto produto : produtos) {
-
             if (produto.getId() == id) {
-                System.out.println(produto);
+                return produto;
             }
         }
+        return null;
     }
 
     public boolean exiteProduto(int id) {

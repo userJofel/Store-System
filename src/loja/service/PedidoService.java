@@ -9,9 +9,10 @@ import java.util.ArrayList;
 public class PedidoService {
     private ArrayList<Pedido> pedidos = new ArrayList<>();
 
-    public void criarPedido(Cliente cliente) {
+    public Pedido criarPedido(Cliente cliente) {
         Pedido pedido = new Pedido(cliente);
         pedidos.add(pedido);
+        return pedido;
     }
 
     public void adicionarProdutoAoPedido(Pedido pedido, Produto produto, int quantidade) {
