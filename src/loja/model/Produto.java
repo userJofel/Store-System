@@ -52,3 +52,4 @@ public class Produto {
         return ( this.getId() + "# | Nome: " + this.getNome() + " | Preço: " + this.getPreco() + " | Estoque: " + this.getQuantidade());
     }
 }
+ 

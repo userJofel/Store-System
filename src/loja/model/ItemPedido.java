@@ -15,3 +15,4 @@ public class ItemPedido {
     public int getQuantidade() { return  this.quantidade; }
     public double getSubtotal() { return this.subtotal; }
 }
+ 

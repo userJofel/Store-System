@@ -64,4 +64,4 @@ public class Pedido {
                 ", total=R$ " + String.format("%.2f", total) +
                 "}";
     }
-}
+} 
